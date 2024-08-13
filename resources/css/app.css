@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/**
+ * Add any custom CSS here
+ */
+
+.app-heading {
+    @apply text-xl font-semibold leading-tight text-gray-800 dark:text-gray-200;
+}
