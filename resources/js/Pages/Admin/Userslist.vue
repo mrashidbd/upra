@@ -7,8 +7,8 @@ import Modal from "@/Components/Modal.vue";
 import SecondaryButton from "@/Components/SecondaryButton.vue";
 import DangerButton from "@/Components/DangerButton.vue";
 import Pagination from "@/Components/Pagination.vue";
-import SortArrowUp from "@/Components/custom/SortArrowUp.vue";
-import SortArrowDown from "@/Components/custom/SortArrowDown.vue";
+import SortArrowUp from "@/Components/Custom/SortArrowUp.vue";
+import SortArrowDown from "@/Components/Custom/SortArrowDown.vue";
 import { ref, watch, reactive, onMounted } from "vue";
 
 const props = defineProps({
